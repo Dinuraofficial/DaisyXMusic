@@ -1,15 +1,12 @@
+<h1 align="centre">Stream Music 🎵</h1>
 
-<h1 align="centre"> DAISYXMUSIC V5.5 🎵 </h1> 
+### 𝘼 𝙗𝙤𝙩 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙤𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙤𝙞𝙘𝙚 𝘾𝙝𝙖𝙩𝙨
 
-### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
+### 𝘼𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙤𝙣 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙖𝙨[@SDStreamMusicBot](https://t.me/SDStreamMusicBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/c9b3eeeef7d32593caca6.jpg">
 </p>
-
-> ⭐️ Thanks to everyone who starred DaisyXMusic, That is the greatest pleasure we have !
 
 <h2> Features 🔥 </h2>
 
@@ -18,58 +15,52 @@
 - Current playback support
 - Showing track names when skipping
 - Zero downtime, Fully Stable
-- Youtube, Local & Saavn playback support
+- Deezer,Youtube & Saavn playback support
 - Settings panel
 - Control with buttons
 - Userbot auto join
 - Channel Music Play
 - Keyboard selection support for youtube play
 
-## 🚀 Deployment
+## 🚀𝘿𝙚𝙥𝙡𝙤𝙮𝙢𝙚𝙣𝙩
 
-### 💜 Heroku/Railway
+### 💜 Heroku
 
-[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic/tree/Py-Tgcalls(main))
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Stream-Music)
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TeamDaisyX/DaisyXMusic/tree/Py-Tgcalls(main)&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+Get pyrogram (p)  `SESSION` from here:
 
-
-
-• Get pyrogram (p)  `SESSION` from here:
-
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+[![Run on Repl.it](https://repl.it/badge/github/ChankitSaini/GenerateStringSession)](https://replit.com/@ChankitSaini/GenerateStringSession)
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
+$ git clone https://github.com/Sadew451/StreamMusic
+$ cd StreamMusic
 # Upgrade sources
 # Install All Requirements 
-$ pip3 install -r requirements.txt
+$ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python3 -m DaisyXMusic
+$ python(3) -m StreamMusic
 ```
-
-[Watch Tutorial on hosting DaisyXMusic on VPS](https://youtu.be/MdavNbazT7Q)
-
 
 ### Commands for Group 🛠
 #### For all in group
 
 - `/play <song name>` - play song you requested
 - `/play <reply to audio>` - play replied file
+- `/dplay <song name>` - play song you requested via deezer
 - `/splay <song name>` - play song you requested via jio saavn
 - `/ytplay <song name>`: Directly play song via Youtube Music
 - `/playlist` - Show now playing list
 - `/current` - Show now playing
 - `/song <song name>` - download songs you want quickly
 - `/search <query>` - search videos on youtube with details
+- `/deezer <song name>` - download songs you want quickly via deezer
 - `/saavn <song name>` - download songs you want quickly via saavn
 - `/video <song name>` - download videos you want quickly
-
 
 #### Admins only.
 - `/player` - open music player settings panel
@@ -82,18 +73,12 @@ $ python3 -m DaisyXMusic
 - `/admincache` - Refresh admin list
 - `/musicplayer [on/off]` - Enable/Disable Music Player
 
-#### Authorized users & Misc
-*Authorized users can execute admin commands in authorized group
-- `/auth <reply to user>` - Authorize User
-- `/deauth <reply to user>` - DeAuthorize user
-- `/admincache` - Refesh admin list
-
-
 ### Commands for Channel Music Play 🛠
 For linked group admins only:
 - `/cplay <song name>` - play song you requested
 - `/cplay <reply to link>` - play replied youtube link
 - `/cplay <reply to audio>` - play replied file
+- `/cdplay <song name>` - play song you requested via deezer
 - `/csplay <song name>` - play song you requested via jio saavn
 - `/cplaylist` - Show now playing list
 - `/cccurrent` - Show now playing
@@ -108,10 +93,9 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @DaisyXBot as Channel admin with full perms
+ 3. Add @SDStreamMusicBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
-
 
 ### Commands for Sudo Users ⚔️
 - `/userbotleaveall` - remove assistant from all chats
@@ -121,46 +105,19 @@ If you donlt like to play in linked channel:
 #### Pmpermit
 - `.a` - approove someone to pm you
 - `.da` - disapproove someone to pm you
-- You can add a custom pmpermit message by adding var `PMMSG` and adding your message through env vars (for heroku, Settings/Edit vars)
-
 + Sudo Users can execute any command in any groups
 
-
-## Credits
+### Credits
 Don't edit this part
 
 #### Special Credits
-- [Roj Serbest](http://github.com/rojserbest): Callsmusic Developer
+- [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
+- [Sadew](https://github.com/Sadew451): Dev
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
-DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of some users
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork StreamMusic won't exist. 
+StreamMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @SDStreamMusicBot users
 
-- [StarkGang](https://github.com/StarkGang/)
-- [SpEcHiDe](https://github.com/SpEcHiDe/)
-- [The Hamker Cat](https://github.com/thehamkercat): Python-ARQ
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Dan (for pyrogram)](https://github.com/delivrance)
-
-#### Contributors
-- [InukaAsith](https://github.com/InukaAsith): Dev
-- [Technical-Hunter](https://github.com/Technical-Hunter): Dev
-- [Roj Serbest](http://github.com/rojserbest): Developer of callsmusic 
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [Bemro](https://github.com/bemroofficial): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [Anjana-Ma](https://github.com/Anjana-Ma): 
-- [ImJanindu](https://github.com/ImJanindu): 
-- [azimazizov9150](https://github.com/azimazizov9150)
-
-
-#### Open Source codes used in this project 
-- https://github.com/callsmusic/callsmusic : Source code used here as base
-- https://github.com/DevsExpo/FridayUserbot/blob/master/main_startup/helper_func/basic_helpers.py : Functioms from line 275 to 351
-- https://github.com/TheHamkerCat/WilliamButcherBot/blob/dev/wbb/modules/music.py : From lines 170 to 178
-
-
-> This project exists thanks to these awesome developers and their codes and contributions.
-
-> And credits goes to all who supported, all who helped and API & environmental requirement package devs and all projects helped in making this project.
-> Special thanks to you for using bot
+#### Contribtors
+- [InukaASiTH](https://github.com/InukaAsith):
+- [Rojserbest](http://github.com/rojserbes): 
+- [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
