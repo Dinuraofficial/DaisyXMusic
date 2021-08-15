@@ -112,7 +112,7 @@ Don't edit this part
 
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
-- [Sadew](https://github.com/Sadew451): Dev
+- [Dinura](https://github.com/Dinuraofficia): Dev
 
 This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork StreamMusic won't exist. 
 StreamMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @SDStreamMusicBot users
