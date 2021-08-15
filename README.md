@@ -26,7 +26,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/Stream-Music)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dinuraofficial/DaisyXMusic)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -35,7 +35,7 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/Sadew451/StreamMusic
+$ git clone https://github.com/Dinuraofficial/DaisyXMusic/StreamMusic
 $ cd StreamMusic
 # Upgrade sources
 # Install All Requirements 
